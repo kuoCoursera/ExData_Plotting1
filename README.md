@@ -112,3 +112,18 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+Instruction of how to run the R script: 
+
+1. Put plot1.R to user's local directory e.g. C:\docs\mydir\plot1.R
+
+2. Unzip the source folder (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
+and save the text file (household_power_consumption.txt) in the "data" folder under the same directory as the R script was saved. e.g. C:\docs\mydir\data\household_power_consumption.txt
+
+3. In RStudio, set the working directory to the folder where the R script file was saved using setwd() function. e.g. setwd("c:/docs/mydir")
+
+4. Type: source("plot1.R") This command will run the R script and it normally runs for ~20 seconds.
+
+OUTPUT: plot1 is constructed and this plot is saved to the same directory as the R script was saved. e.g. C:\docs\mydir\plot1.PNG   This PNG file has a width of 480 pixels and a height of 480 pixels.
+
+(Note: same instruction for all four scripts plot1.R, plot2.R, plot3.R and plot4.R)
