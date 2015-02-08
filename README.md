@@ -113,7 +113,7 @@ The four plots that you will need to construct are shown below.
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
 
-Instruction of how to run the R script: 
+## Instruction of how to run the R script: 
 
 1. Put plot1.R to user's local directory e.g. C:\docs\mydir\plot1.R
 
@@ -126,4 +126,5 @@ and save the text file (household_power_consumption.txt) in the "data" folder un
 
 OUTPUT: plot1 is constructed and this plot is saved to the same directory as the R script was saved. e.g. C:\docs\mydir\plot1.PNG   This PNG file has a width of 480 pixels and a height of 480 pixels.
 
-(Note: same instruction for all four scripts plot1.R, plot2.R, plot3.R and plot4.R)
+5. Repeat the same setp 1 ~ step 4 for plot2.R, plot3.R and plot4.R. After runnning the scripts, plot2, plot3 and plot4 will also be constructed and saved as the PNG files into the same directory as the R scripts were saved.
+
